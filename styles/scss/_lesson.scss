@@ -1,0 +1,149 @@
+.lesson {
+    padding: 50px 0px;
+    .lesson-banner {
+        background: url("/img/slider/course-detail_slider.jpg");
+        background-position: center;
+        background-size: cover;
+        min-height: 350px;
+        .banner-text {
+            h1 {
+                font-size: 48px;
+                font-weight: 600;
+                color: #ffffff;
+                font-family: "Dosis", sans-serif;
+                text-align: center;
+            }
+        }
+    }
+    .lesson-content {
+        padding: 50px 0px;
+        .focus-content {
+            iframe {
+                width: 100%;
+                min-height: 430px;
+            }
+            .lesson-list {
+                padding: 0px 20px;
+
+                h3 {
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                    padding: 10px;
+                    background: linear-gradient(to right, #e44d26, #f16529);
+                    margin: 0;
+                    color: #ffffff;
+                    font-size: 24px;
+                }
+                .list-items {
+                    height: 380px;
+                    overflow-y: scroll;
+                    border: 2px solid #eee;
+                    &::-webkit-scrollbar {
+                        display: none;
+                    }
+                    a {
+                        padding: 10px 10px;
+                        font-size: 20px;
+                        display: block;
+                        border-bottom: 1px solid #eee;
+                        color: #0056b3;
+                        transition: all 0.2s ease-out 0s;
+                        &:hover {
+                            text-decoration: none;
+                            background: #eee;
+                            color: #4d0028;
+                            transition: all 0.2s ease-out 0s;
+                        }
+                    }
+                    .active {
+                        background: #eee;
+                        color: #4d0028;
+                    }
+                }
+            }
+        }
+        .main-content {
+            padding: 50px 0px;
+            .hr__wiretap {
+                height: 3px;
+                width: 50%;
+                background: linear-gradient(to right, #8a2387, #e94057, #f27121)
+            }
+            .content-item {
+                padding-top: 30px;
+                p {
+                    font-size: 20px;
+                    margin-top: 1rem;
+                }
+                code {
+                    display: block;
+                    padding: 10px;
+                    background: #f0f0f0;
+                    color: #800080;
+                    .function {
+                        padding-left: 20px;
+                    }
+                }
+                .const-keyword {
+                    color: #e83e8c;
+                    font-weight: 550;
+                }
+                .const-keyword1 {
+                    color: #6377c5;
+                }
+                .const-keyword2 {
+                    color: orangered;
+                }
+                form {
+                    input {
+                        width: 70%;
+                        padding: 10px 25px;
+                        border-radius: 10px;
+                        border: 2px solid #dcdcdc;
+
+                    }
+                    button {
+                        padding: 10px 25px;
+                        border-radius: 10px;
+                        border: 1px solid #eee;
+                    }
+                }
+                .comments {
+                    background-color: #eee;
+                    padding: 20px 10px;
+                    .comment {
+                        display: flex;
+                        background-color: #ffffff;
+                        padding: 20px 10px;
+                        margin: 20px 0px;
+                        border-radius: 15px;
+                        img {
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                        }
+                        .comment-ct {
+                            padding-left: 10px;
+                            p {
+                                font-size: 16px;
+                                margin: 0;
+                            }
+                            .reaction {
+                                display: flex;
+                                .like {
+                                    color: #ff4500;
+                                    margin-right: 20px;
+                                    cursor: pointer;
+                                }
+                                .cmt {
+                                    color: #6377c5;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

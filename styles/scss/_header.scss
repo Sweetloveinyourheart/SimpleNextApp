@@ -1,0 +1,126 @@
+.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    .header-sticky {
+        background-color: #010e21;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        .main-menu {
+            ul > li > a {
+                padding: 15px 17px !important;
+            }
+        }
+    }
+    .main-header {
+        .logo {
+            img {
+                max-height: 70px;
+            }
+        }
+        .main-menu {
+            float: right;
+            ul {
+                padding: 0;
+                margin: 0;
+                .has-dropdown {
+                    color: red;
+                    &:hover > .submenu {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+                li {
+                    list-style: none;
+                    display: inline-block;
+                    position: relative;
+                    a {
+                        color: #fff;
+                        font-weight: 500;
+                        padding: 39px 17px;
+                        display: block;
+                        font-size: 16px;
+                        -webkit-transition: all 0.3s ease-out 0s;
+                        -moz-transition: all 0.3s ease-out 0s;
+                        -ms-transition: all 0.3s ease-out 0s;
+                        -o-transition: all 0.3s ease-out 0s;
+                        transition: all 0.3s ease-out 0s;
+                        &:hover {
+                            text-decoration: none;
+                            color: #eb566c;
+                        }
+                    }
+
+                    .submenu {
+                        position: absolute;
+                        width: 170px;
+                        background: #fff;
+                        left: 0;
+                        top: 80%;
+                        visibility: hidden;
+                        opacity: 0;
+                        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
+                        padding: 17px 0;
+                        border-top: 5px solid #ff3d1c;
+                        transition: all 0.3s ease-out 0s;
+                        li {
+                            width: 100%;
+                            a {
+                                padding: 6px 10px !important;
+                                font-size: 16px;
+                                color: #0b1c39;
+                                text-transform: capitalize;
+                                &:hover {
+                                    color: #ff3b1c;
+                                }
+                            }
+                        }
+                    }
+                }
+                .login {
+                    a {
+                        cursor: pointer;
+                        background-color: #ff3b1c;
+                        padding: 14px 30px;
+                        border-radius: 30px;
+                        &:hover {
+                            background-color: #ffffff;
+                            text-decoration: none;
+                            color: #eb566c;
+                        }
+                    }
+                }
+                .login__ok {
+                    span {
+                        border-radius: 50%;
+                        padding: 10px 15px;
+                        background-color: #ff3b1c;
+                        color: #ffffff;
+                    }
+                    color: #ffffff;
+                }
+            }
+        }
+        // Mobile Menu slick Nav
+        .mobile_menu {
+            position: absolute;
+            right: 0px;
+            width: 100%;
+            z-index: 99;
+            .slicknav_menu {
+                background: transparent;
+                margin-top: 16px !important;
+                .slicknav_nav {
+                    border: 3px solid #eee;
+                    border-radius: 10px;
+                }
+            }
+            .slicknav_btn {
+                top: -48px;
+            }
+        }
+    }
+}

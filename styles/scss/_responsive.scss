@@ -1,0 +1,127 @@
+@media only screen and (max-width: 1600px) and (min-width: 1200px) {
+    .header {
+        .main-header {
+            padding: 0px 20px;
+        }
+    }
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .header {
+        .main-header {
+            padding: 0px 20px;
+        }
+    }   
+    .course {
+        .course-main {
+            .course-items {
+                .course-item {
+                    max-height: 195px !important;
+                    .course-content {
+                        h4 {
+                            font-size: 20px !important;
+                        }
+                        button {
+                            font-size: 16px !important;
+                            padding: 10px 15px !important;
+                        }
+                    }
+                    .course-achie {
+                        width: 120px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .header {
+        .main-header {
+            padding: 0px 20px;
+        }
+    }
+    .slider {
+        .single-slider {
+            .ai__caption {
+                padding: 150px 0 50px;
+                text-align: center;
+            }
+            .course {
+                margin: 20px 0px;
+            }
+        }
+        
+    }
+}
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+    .header {
+        .main-header {
+            padding: 0px 20px;
+        }
+    }
+    .slider {
+        .single-slider {
+            .ai__caption {
+                padding: 200px 0 50px;
+                text-align: center;
+            }
+            
+            .course {
+                margin: 20px 0px;
+            }
+        }
+        
+    }
+    .signin-slider {
+        .signin-box {
+            margin: 0 20% !important;
+        }
+    }
+    .signup-slider {
+        .signup-box {
+            margin: 0 20% !important;
+        }
+    }
+}
+//mobile
+@media only screen and (max-width: 575px) {
+    .header {
+        .main-header {
+            padding: 22px 20px;
+        }
+        .header-sticky {
+            padding: 0px 10px;
+        }
+    }
+    .slider {
+        .single-slider {
+            .ai__caption {
+                padding: 200px 0 50px;
+                text-align: center;
+            }
+            .course {
+                margin: 20px 0px;
+            }
+            .top-course .course-demo .course-img {
+                height: 201px !important;
+            }
+        }
+        
+    }
+    .footer {
+        .footer-item {
+            padding: 20px 0px;
+        }
+    }
+    .signin-slider {
+        .signin-box {
+            width: 100% !important;
+            margin: 0 !important;
+        }
+    }
+    .signup-slider {
+        .signup-box {
+            width: 100% !important;
+            margin: 0 !important;
+        }
+    }
+}

@@ -1,0 +1,124 @@
+.slider {
+    background-image: url("/img/slider/slider.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    .single-slider {
+        min-height: calc(100vh);
+        .ai__caption {
+            span {
+                color: #31ff7a;
+                font-size: 60px;
+                line-height: 1.2;
+                font-weight: 400;
+                font-family: "Sacramento", cursive;
+            }
+            h1 {
+                font-size: 72px;
+                font-weight: 700;
+                line-height: 1.6;
+                font-family: "Satisfy", cursive;
+                background: -webkit-linear-gradient(#fdc830, #f37335);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            h3 {
+                font-size: 38px;
+                font-weight: 700;
+                color: #fff;
+            }
+        }
+        .top-course {
+            h3 {
+                color: #fff;
+                font-size: 38px;
+            }
+            .hr_color {
+                background-image: linear-gradient(to right, #74ebd5, #acb6e5);
+                height: 5px;
+                width: 100%;
+                border-radius: 20px;
+                margin: 20px 0px;
+            }
+            .outline {
+                &:focus {
+                    outline: none;
+                }
+            }
+            .course-demo {
+                border-radius: 10px;
+                width: 100%;
+                min-height: 330px;
+                background-image: linear-gradient(to right, #43c6ac, #191654);
+                overflow: hidden;
+                cursor: pointer;
+                .course-img {
+                    height: 141px;
+                    overflow: hidden;
+                    width: 100%;
+                    img {
+                        width: 100%;
+                        border-top-left-radius: 10px;
+                        border-top-right-radius: 10px;
+                        transition: all 0.5s ease-out 0s;
+                    }
+                }
+                &:hover > .course-img {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+            .course-info {
+                padding: 20px;
+
+                h4 {
+                    text-align: center;
+                    color: #e2e2e2;
+                }
+                p {
+                    margin: 0;
+                    color: #e2e2e2;
+                }
+            }
+            .slick-slide {
+                &:focus > a {
+                    outline: none;
+                  }
+            }
+            .slick-slide > div > div {
+                max-width: 100%;
+            }
+            .slick-prev {
+                position: absolute;
+                top: 40%;
+                left: -5%;
+                background: transparent;
+                border: none;
+                color: #bc26d3;
+                cursor: pointer;
+                font-size: 0px;
+                padding: 0;
+                &:focus {
+                    outline-width: 0;
+                }
+            }
+            .slick-next {
+                position: absolute;
+                top: 40%;
+                right: -5%;
+                background: transparent;
+                border: none;
+                color: #bc26d3;
+                cursor: pointer;
+                font-size: 0px;
+                padding: 0;
+                &:focus {
+                    outline-width: 0;
+                }
+            }
+            .slick-slide {
+                outline: none;
+            }
+        }
+    }
+}

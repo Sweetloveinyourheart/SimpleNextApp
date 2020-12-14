@@ -1,0 +1,127 @@
+.contact {
+    padding: 70px 0px 0pc 0px;
+    font-family: "Patrick Hand", cursive;
+    .contact-banner {
+        background: url("/img/slider/contact-slider.jpg");
+        background-position: center;
+        background-size: cover;
+        min-height: 350px;
+        .contact-title {
+            h1 {
+                font-size: 72px;
+                font-weight: 600;
+                color: #ffffff;
+                font-family: "Dosis", sans-serif;
+            }
+        }
+    }
+    .contact-box {
+        padding: 50px 0px;
+        .box {
+            text-align: center;
+            padding: 0px 0px 50px 0px;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            border-radius: 5px;
+            form {
+                h4 {
+                    color: #2f4f4f;
+                }
+                h3 {
+                    background: #dcdcdc;
+                    padding: 20px;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                }
+                p {
+                    text-align: left !important;
+                    padding-left:75px ;
+                    font-size: 20px;
+                    margin: 10px 0px 5px 0px;
+                }
+                input {
+                    width: 75%;
+                    border-radius: 10px;
+                    border: 1px solid #dcdcdc;
+                    padding: 6px 20px;
+                    font-size: 20px;
+                    &:focus {
+                        outline-width: 0;
+                        border: 1px solid #696969;
+                    }
+                }
+                textarea {
+                    width: 75%;
+                    border-radius: 10px;
+                    border: 1px solid #dcdcdc;
+                    padding: 3px 20px;
+                }
+                button {
+                    margin-top: 10px;
+                    width: 75%;
+                    border-radius: 10px;
+                    border: 1px solid #dcdcdc;
+                    padding: 6px 20px;
+                    background: #696969;
+                    cursor: pointer;
+                    color: #ffffff;
+                    font-size: 20px;
+                    transition: 0.2s ease-in 0s;
+                    &:hover {
+                        background-color: #8c8c8c;
+                        transition: 0.2s ease-in 0s;
+                    }
+                }
+            }
+        }
+        .other-contact {
+           padding: 0px 0px 30px 0px;
+           height: 100%;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            border-radius: 5px;
+            h3 {
+                text-align: center;
+                background: #dcdcdc;
+                padding: 20px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+            .main-contact {
+                padding: 0px 30px 0px 30px;
+                h4 {
+                    color: #2f4f4f;
+                    text-align: center;
+                    margin-bottom: 40px;
+                }
+                p {
+                    font-size: 20px;
+                    margin: 20px 0px 5px 0px;
+                }
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: #696969;
+                    &:hover    {color: #2f4f4f;}
+                }
+            }
+        }
+    }
+    .footer {
+        padding: 50px;
+        font-family: "Patrick Hand", cursive;
+        background: linear-gradient(to right, #360033, #0b8793);
+        .footer-nav {
+            text-align: center;
+            color: #dcdcdc;
+            font-size: 20px;
+            .nav-color {
+                color: #ffffff !important;
+            }
+            .footer-contact {
+                padding: 20px 0px;
+                display: flex;
+                font-size: 28px;
+                justify-content: center;
+            }
+        }
+    }    
+}

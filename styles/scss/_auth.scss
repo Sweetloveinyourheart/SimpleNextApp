@@ -1,0 +1,166 @@
+.signup-slider {
+     font-family: "Patrick Hand", cursive;
+    color: #ffffff;
+    background: url('/img/slider/signin-slider.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover ;
+    min-height: calc(100vh);
+    flex-direction: column;
+    .header-auth {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .switch-button {
+        font-size: 22px;
+        color: #5353c6;
+        cursor: pointer;
+        &:hover {
+            text-decoration: none;
+            color: #4040bf;
+        }
+    }
+    .signup-box {
+        margin-top: 40px !important;
+        margin-bottom: 80px !important;
+        padding: 30px;
+        color: #000000 !important;
+        margin: 0 35%;
+        border-radius: 5px;
+        position: relative;
+        z-index: 999;
+            &::before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                background: #000000;
+                opacity: 0.5;
+                z-index: -1;
+            }
+        input {
+            width: 100%;
+            padding: 5px 0px 5px 15px;
+            border: 1px solid #dcdcdc;
+            font-size: 19px;
+            &:focus {
+                border: 1px solid #33001a;
+                outline-width: 0;
+            }
+        }
+        p {
+            color: #ffffff;
+            margin: 15px 0px 10px 0px;
+            font-size: 22px;
+        }
+        button {
+            margin: 25px 0px 10px 0px;
+            width: 100%;
+            background: #9966ff;
+            border: none;
+            color: #ffffff;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover {
+                background: #7733ff;
+            }
+        }
+        .signin-text {
+            display: flex;
+            justify-content: center;
+            p {
+                margin: 0px 10px 0px 0px !important;
+            }
+            a {
+                font-size: 22px;
+                color: #5353c6;
+                &:hover {
+                    text-decoration: none;
+                    color: #4040bf;
+                }
+            }
+        }
+    }
+    .signin-box {
+        margin-top: 40px !important;
+        padding: 30px;
+        color: #000000 !important;
+        margin: 0 35%;
+        border-radius: 5px;
+        position: relative;
+        z-index: 999;
+            &::before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                background: #000000;
+                opacity: 0.5;
+                z-index: -1;
+            }
+        input {
+            width: 100%;
+            padding: 5px 0px 5px 15px;
+            border: 1px solid #dcdcdc;
+            font-size: 19px;
+            &:focus {
+                border: 1px solid #33001a;
+                outline-width: 0;
+            }
+        }
+        p {
+            color: #ffffff;
+            margin: 15px 0px 10px 0px;
+            font-size: 22px;
+            .ti-email {
+                margin: 0px 4px -5px 0px;
+            }
+        }
+        .check {
+            display: flex;
+            p {
+                margin: 12px 0px 0px 10px;
+            }
+            .input-check {
+                width: 30px !important;
+                margin: 22px 0px 0px 0px;
+            }
+        }
+        button {
+            margin: 10px 0px 10px 0px;
+            width: 100%;
+            background: #9966ff;
+            border: none;
+            color: #ffffff;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover {
+                background: #7733ff;
+            }
+        }
+        .text-center {
+            a {
+                font-size: 22px;
+                color: #5353c6;
+                &:hover {
+                    text-decoration: none;
+                    color: #4040bf;
+                }
+            }
+        }
+        .signup-text {
+            display: flex;
+            justify-content: center;
+            p {
+                margin: 0px 10px 0px 0px !important;
+            }
+            
+        }
+    }
+}
